@@ -8,12 +8,13 @@
         android:id="@+id/rootConstraintLayout"
         tools:context=".MainActivity">
     <Button
-            android:text="Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonSelectBackground"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" tools:text="@string/select_background"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/select_background"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
