@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.buttonSelectBackhground);
+        button = findViewById(R.id.buttonSelectBackground);
         layout = findViewById(R.id.rootConstraintLayout);
 
         button.setOnClickListener(this);
